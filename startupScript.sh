@@ -17,14 +17,13 @@
 echo "1" > /sys/class/gpio/gpio136/value
 
 #it seems I can wait until a particular command has completed, that sounds useful
-sleep 1
+sleep 5
 
 #Take the photo and save it 
-#gphoto2 --capture-image-and-download
+gphoto2 --capture-image #-and-download #--filename #%Y_%m_%d_%H_%M_%S.JPG #-u
 #some code to rename the file
 
-
-#Code to turn off the camera
+sleep 5
 
 #Check for button press
 
