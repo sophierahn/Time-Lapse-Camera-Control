@@ -1,17 +1,17 @@
 #!/bin/bash
 
-#aaaah this is how I comment, cool
-#This isn't operational yet, I have to implement it somehow
+#Check the schedule
+input="/Time-Lapse-Camera-Control/schedule.txt"
 
 #Set all the various GPIO pins
 
 #Setting up the Relay
-#echo "136" > /sys/class/gpio/export
-#echo "out" > /sys/class/gpio/gpio136/direction
+echo "136" > /sys/class/gpio/export
+echo "out" > /sys/class/gpio/gpio136/direction
 
 #Setting up the keypad
-#echo "117" > /sys/class/gpio/export
-#echo "in" > /sys/class/gpio/gpio117/direction
+echo "117" > /sys/class/gpio/export
+echo "in" > /sys/class/gpio/gpio117/direction
 
 #some code to turn on the camera
 echo "1" > /sys/class/gpio/gpio136/value
@@ -22,6 +22,8 @@ sleep 5
 #Take the photo and save it 
 gphoto2 --capture-image #-and-download #--filename #%Y_%m_%d_%H_%M_%S.JPG #-u
 #some code to rename the file
+
+date >> ~/Time-Lapse-Camera-Control/timestamps.txt
 
 sleep 5
 
