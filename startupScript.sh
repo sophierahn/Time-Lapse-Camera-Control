@@ -6,6 +6,8 @@
 echo "136" > /sys/class/gpio/export
 echo "out" > /sys/class/gpio/gpio136/direction
 
+sleep 1
+
 #Setting up the keypad
 echo "117" > /sys/class/gpio/export
 echo "in" > /sys/class/gpio/gpio117/direction
@@ -35,39 +37,40 @@ neg=1
 #only turn on the camera and take a picture if things are on schedule
 if test $diff -ge -180; #if the difference is greater than or equal to 3 mins
 then
+	echo "Greater than -180:
 	if test $diff -le 180;#if the difference is less than or equal to 3 mins
 	then # we did it, we're on schedule
+		echo "just on target"
+		sleep 0.5
 		echo "1" > /sys/class/gpio/gpio136/value
-		sleep 5
+		sleep 3
 		gphoto2 --capture-image
 		date >> ~/Time-Lapse-Camera-Control/timestamps.txt
 		#only delete the top entry once we've followed it
 		#if we're planning to follow it, we'll need it again
 		sed -i 1d ~/Time-Lapse-Camera-Control/schedule.txt
 	else #we've way overshot the schedule 
+		echo "schedule was overshot"
 		#so we definitely don't need that last entry
-		sed -i 1d ~/Time-Lapse-Camera-Control/schedule.txt
 		
 
-		while [ $diff -gt 180]
-		then
+		while [ $diff -gt 180];
+		do
+			echo "editing list"
+			sed -i 1d ~/Time-Lapse-Camera-Control/schedule.txt
 			#now we fight back to our schedule
 			schedule=$(head -n 1 ~/Time-Lapse-Camera-Control/schedule.txt)
 			schedule_s=$(date -d "$schedule" '+%s')
 			diff=$(($now_s - $schedule_s))
+			
 		done
+		echo "need to sleep a little longer"
+		sleep 0.1
 		echo "1" > /sys/class/gpio/gpio136/value
 		sleep 5
 		gphoto2 --capture-image
 		date >> ~/Time-Lapse-Camera-Control/timestamps.txt
 		sed -i 1d ~/Time-Lapse-Camera-Control/schedule.txt
-		
-			
-
-
-
-
-
 	fi
 else
 	#setting up variables for future arithmatic
