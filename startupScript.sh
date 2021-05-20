@@ -29,6 +29,8 @@ schedule_s=$(date -d "$schedule" '+%s')
 diff=$(($now_s - $schedule_s))
 
 echo "Time difference is: $diff"
+
+neg=1
  
 #only turn on the camera and take a picture if things are on schedule
 if test $diff -ge -180; #if the difference is greater than or equal to 3 mins
@@ -38,64 +40,78 @@ then
 		echo "1" > /sys/class/gpio/gpio136/value
 		sleep 5
 		gphoto2 --capture-image
+		date >> ~/Time-Lapse-Camera-Control/timestamps.txt
 		#only delete the top entry once we've followed it
 		#if we're planning to follow it, we'll need it again
 		sed -i 1d ~/Time-Lapse-Camera-Control/schedule.txt
 	else #we've way overshot the schedule 
 		#so we definitely don't need that last entry
 		sed -i 1d ~/Time-Lapse-Camera-Control/schedule.txt
+		
 
-		#now we fight back to our schedule
-		schedule=$(head -n 1 ~/Time-Lapse-Camera-Control/schedule.txt)
+		while [ $diff -gt 180]
+		then
+			#now we fight back to our schedule
+			schedule=$(head -n 1 ~/Time-Lapse-Camera-Control/schedule.txt)
+			schedule_s=$(date -d "$schedule" '+%s')
+			diff=$(($now_s - $schedule_s))
+		done
+		echo "1" > /sys/class/gpio/gpio136/value
+		sleep 5
+		gphoto2 --capture-image
+		date >> ~/Time-Lapse-Camera-Control/timestamps.txt
+		sed -i 1d ~/Time-Lapse-Camera-Control/schedule.txt
+		
+			
+
+
+
+
+
 	fi
 else
-	neg=-1	
-	((time_sleep=neg*diff))
-	echo $time_sleep
+	#setting up variables for future arithmatic
+	neg=-1
 fi
 
 
+#The job of the nested if was to adjust the head of the schedule or not 
+#depending on the scenario
+#Now the new sleep time can be found
 
+schedule=$(head -n 1 ~/Time-Lapse-Camera-Control/schedule.txt)
+now=$(date)
 
-#if test $now == $line;
-#then 
-	#something
-#elif test $now -lt $line; #lt is greater than, le is greater than or equal to 
-#then
-	#something
-#elif $now -gt $line; #
-#then
-	#something
- 
+now_s=$(date -d "$now" '+%s')
+schedule_s=$(date -d "$schedule" '+%s')
 
+diff=$(($now_s - $schedule_s))
 
-#it seems I can wait until a particular command has completed, that sounds useful
-#sleep 5
+((time_sleep=neg*diff))
+echo $time_sleep
 
-#Take the photo and save it 
-#gphoto2 --capture-image #-and-download #--filename #%Y_%m_%d_%H_%M_%S.JPG #-u
-#some code to rename the file
+echo "If you want this cycle to begin\n"
+echo "Hold down the left pointing arrow key\n"
+echo "Until the device shuts off\n"
 
-#date >> ~/Time-Lapse-Camera-Control/timestamps.txt
-
-#sleep 5
+sleep 5
 
 #Check for button press
 
-#button_press=$(cat /sys/class/gpio/gpio117/value)
+button_press=$(cat /sys/class/gpio/gpio117/value)
 
-#echo "Button press value is: $button_press"
+echo "Button press value is: $button_press"
 
 
 
 
 #Put Jessie to sleep
-#if test $button_press == 0;
-#then 
-#	echo "Time to sleep"
-#	echo "0" > /sys/class/gpio/gpio136/value
-#	tsmicroctl --sleep 3
-#else
-#	echo "carry on"
-#	echo "0" > /sys/class/gpio/gpio136/value
-#fi
+if test $button_press == 0;
+then 
+	echo "Time to sleep"
+	echo "0" > /sys/class/gpio/gpio136/value
+	tsmicroctl --sleep 3
+else
+	echo "carry on"
+	echo "0" > /sys/class/gpio/gpio136/value
+fi
