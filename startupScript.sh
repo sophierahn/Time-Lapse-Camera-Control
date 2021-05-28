@@ -35,26 +35,29 @@ echo "Time difference is: $diff"
 neg=1
  
 #only turn on the camera and take a picture if things are on schedule
-if test $diff -ge -180; #if the difference is greater than or equal to 3 mins
+if test $diff -ge -180; #if the difference is greater than or equal to 3 mins past the scheduled time (meaning we aren't super early)
 then
-	echo "Greater than -180:
+	echo "Greater than -180"
 	if test $diff -le 180;#if the difference is less than or equal to 3 mins
 	then # we did it, we're on schedule
 		echo "just on target"
 		sleep 0.5
 		echo "1" > /sys/class/gpio/gpio136/value
 		sleep 3
-		gphoto2 --capture-image
+		gphoto2 --capture-image-and-download --keep
+		JPG=(*.JPG)
 		date >> ~/Time-Lapse-Camera-Control/timestamps.txt
+		echo "$JPG" >> ~/Time-Lapse-Camera-Control/timestamps.txt
+		rm $JPG
 		#only delete the top entry once we've followed it
 		#if we're planning to follow it, we'll need it again
 		sed -i 1d ~/Time-Lapse-Camera-Control/schedule.txt
+
+		
 	else #we've way overshot the schedule 
 		echo "schedule was overshot"
 		#so we definitely don't need that last entry
-		
-
-		while [ $diff -gt 180];
+		while test $diff -gt 180;
 		do
 			echo "editing list"
 			sed -i 1d ~/Time-Lapse-Camera-Control/schedule.txt
@@ -62,21 +65,30 @@ then
 			schedule=$(head -n 1 ~/Time-Lapse-Camera-Control/schedule.txt)
 			schedule_s=$(date -d "$schedule" '+%s')
 			diff=$(($now_s - $schedule_s))
+			echo "Next schedule point is: $diff"
 			
 		done
-		echo "need to sleep a little longer"
-		sleep 0.1
-		echo "1" > /sys/class/gpio/gpio136/value
-		sleep 5
-		gphoto2 --capture-image
-		date >> ~/Time-Lapse-Camera-Control/timestamps.txt
-		sed -i 1d ~/Time-Lapse-Camera-Control/schedule.txt
-	fi
+
+		if test $diff -ge -180;
+		then
+			sleep 0.1
+			echo "1" > /sys/class/gpio/gpio136/value
+			sleep 5
+			gphoto2 --capture-image-and-download --keep
+			JPG=(*.JPG)
+			date >> ~/Time-Lapse-Camera-Control/timestamps.txt
+			echo "$JPG" >> ~/Time-Lapse-Camera-Control/timestamps.txt
+			#Get rid of the JPG so that it doesn't clog up the machine
+			rm $JPG
+			sed -i 1d ~/Time-Lapse-Camera-Control/schedule.txt
+		fi
+	fi		
 else
+	echo "We are way ahead of schedule"
 	#setting up variables for future arithmatic
 	neg=-1
-fi
 
+fi
 
 #The job of the nested if was to adjust the head of the schedule or not 
 #depending on the scenario
@@ -91,7 +103,7 @@ schedule_s=$(date -d "$schedule" '+%s')
 diff=$(($now_s - $schedule_s))
 
 ((time_sleep=neg*diff))
-echo $time_sleep
+echo "Time to sleep still is: $time_sleep"
 
 echo "If you want this cycle to begin\n"
 echo "Hold down the left pointing arrow key\n"
@@ -113,7 +125,7 @@ if test $button_press == 0;
 then 
 	echo "Time to sleep"
 	echo "0" > /sys/class/gpio/gpio136/value
-	tsmicroctl --sleep 3
+	tsmicroctl --sleep $time_sleep
 else
 	echo "carry on"
 	echo "0" > /sys/class/gpio/gpio136/value
