@@ -42,10 +42,9 @@ else
 	#only turn on the camera and take a picture if things are on schedule
 	if test $diff -ge -180; #if the difference is greater than or equal to 3 mins past the scheduled time (meaning we aren't super early)
 	then
-		echo "Greater than -180"
 		if test $diff -le 180;#if the difference is less than or equal to 3 mins
 		then # we did it, we're on schedule
-			echo "just on target"
+			echo "On schedule, taking photo"
 			sleep 0.5
 			echo "1" > /sys/class/gpio/gpio136/value
 			sleep 3
@@ -60,22 +59,22 @@ else
 	
 			
 		else #we've way overshot the schedule 
-			echo "schedule was overshot"
+			echo "Late wake up time, adjusting schedule"
 			#so we definitely don't need that last entry
 			while test $diff -gt 180;
 			do
-				echo "editing list"
 				sed -i 1d ~/Time-Lapse-Camera-Control/schedule.txt
 				#now we fight back to our schedule
 				schedule=$(head -n 1 ~/Time-Lapse-Camera-Control/schedule.txt)
 				schedule_s=$(date -d "$schedule" '+%s')
 				diff=$(($now_s - $schedule_s))
-				echo "Next schedule point is: $diff"
 				
 			done
 	
 			if test $diff -ge -180;
 			then
+				echo "Schedule caught up, current time is scheduled period"
+				echo "Taking photo"
 				sleep 0.1
 				echo "1" > /sys/class/gpio/gpio136/value
 				sleep 5
@@ -86,10 +85,13 @@ else
 				#Get rid of the JPG so that it doesn't clog up the machine
 				rm $JPG
 				sed -i 1d ~/Time-Lapse-Camera-Control/schedule.txt
+			else
+				echo "Schedule caught up"
 			fi
+			
 		fi		
 	else
-		echo "We are way ahead of schedule"
+		echo "Early wakeup"
 		#setting up variables for future arithmatic
 	
 	fi
@@ -107,34 +109,28 @@ else
 	neg=-1
 	diff=$(($now_s - $schedule_s))
 	
-	echo "Calculating time to sleep"
-	echo "The difference before case adjustment is: $diff"	
+	echo "Calculating time to sleep"	
 	((time_sleep=neg*diff))
-	echo "Time to sleep still is: $time_sleep"
-	
-	echo "If you want this cycle to begin\n"
-	echo "Hold down the left pointing arrow key\n"
-	echo "Until the device shuts off\n"
+	echo "Time to sleep: $time_sleep"
 	
 	sleep 5
 	
 	#Check for button press
 	
 	button_press=$(cat /sys/class/gpio/gpio117/value)
-	
-	echo "Button press value is: $button_press"
 		
 	
 	
 	
 	#Put Jessie to sleep
-	if test $button_press == 0;
+	if test $button_press == 1;
 	then 
-		echo "Time to sleep"
+		echo "Going to sleep"
 		echo "0" > /sys/class/gpio/gpio136/value
+		sleep 2
 		tsmicroctl --sleep $time_sleep
 	else
-		echo "carry on"
+		echo "Loop exit entered, closing program and remaining ON"
 		echo "0" > /sys/class/gpio/gpio136/value
 	fi
 	

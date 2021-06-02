@@ -1,0 +1,17 @@
+[Unit]
+Description= Time Lapse service
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=no
+User=root
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=timeLapse
+ExecStart=/root/Time-Lapse-Camera-Control/startupScript.sh
+
+[Install]
+WantedBy=multi-user.target
+

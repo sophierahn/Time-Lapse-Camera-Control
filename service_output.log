@@ -1,0 +1,34 @@
+Jun  2 18:45:12 ts-imx6ul timeLapse[357]: Current date is: Wed Jun  2 18:45:12 UTC 2021
+Jun  2 18:45:12 ts-imx6ul timeLapse[357]: Next up on the schedule is: 06/02/2021#01118:40:00
+Jun  2 18:45:12 ts-imx6ul timeLapse[357]: Time difference is: 312
+Jun  2 18:45:12 ts-imx6ul timeLapse[357]: Greater than -180
+Jun  2 18:45:12 ts-imx6ul timeLapse[357]: schedule was overshot
+Jun  2 18:45:12 ts-imx6ul timeLapse[357]: editing list
+Jun  2 18:45:12 ts-imx6ul timeLapse[357]: Next schedule point is: 12
+Jun  2 18:45:28 ts-imx6ul timeLapse[357]: New file is in location /store_00010001/DCIM/100D5600/INT_0046.JPG on the camera
+Jun  2 18:45:28 ts-imx6ul timeLapse[357]: Saving file as INT_0046.JPG
+Jun  2 18:45:31 ts-imx6ul timeLapse[357]: Keeping file /store_00010001/DCIM/100D5600/INT_0046.JPG on the camera
+Jun  2 18:45:33 ts-imx6ul timeLapse[357]: Calculating time to sleep
+Jun  2 18:45:33 ts-imx6ul timeLapse[357]: The difference before case adjustment is: -267
+Jun  2 18:45:33 ts-imx6ul timeLapse[357]: Time to sleep still is: 267
+Jun  2 18:45:33 ts-imx6ul timeLapse[357]: If you want this cycle to begin\n
+Jun  2 18:45:33 ts-imx6ul timeLapse[357]: Hold down the left pointing arrow key\n
+Jun  2 18:45:33 ts-imx6ul timeLapse[357]: Until the device shuts off\n
+Jun  2 18:45:38 ts-imx6ul timeLapse[357]: Button press value is: 0
+Jun  2 18:45:38 ts-imx6ul timeLapse[357]: carry on
+Jun  2 18:49:07 ts-imx6ul timeLapse[357]: Current date is: Wed Jun  2 18:49:07 UTC 2021
+Jun  2 18:49:07 ts-imx6ul timeLapse[357]: Next up on the schedule is: 06/02/2021#01118:50:00
+Jun  2 18:49:07 ts-imx6ul timeLapse[357]: Time difference is: -53
+Jun  2 18:49:07 ts-imx6ul timeLapse[357]: Greater than -180
+Jun  2 18:49:07 ts-imx6ul timeLapse[357]: just on target
+Jun  2 18:49:22 ts-imx6ul timeLapse[357]: New file is in location /store_00010001/DCIM/100D5600/INT_0047.JPG on the camera
+Jun  2 18:49:22 ts-imx6ul timeLapse[357]: Saving file as INT_0047.JPG
+Jun  2 18:49:25 ts-imx6ul timeLapse[357]: Keeping file /store_00010001/DCIM/100D5600/INT_0047.JPG on the camera
+Jun  2 18:49:26 ts-imx6ul timeLapse[357]: Calculating time to sleep
+Jun  2 18:49:26 ts-imx6ul timeLapse[357]: The difference before case adjustment is: -334
+Jun  2 18:49:26 ts-imx6ul timeLapse[357]: Time to sleep still is: 334
+Jun  2 18:49:26 ts-imx6ul timeLapse[357]: If you want this cycle to begin\n
+Jun  2 18:49:26 ts-imx6ul timeLapse[357]: Hold down the left pointing arrow key\n
+Jun  2 18:49:26 ts-imx6ul timeLapse[357]: Until the device shuts off\n
+Jun  2 18:49:31 ts-imx6ul timeLapse[357]: Button press value is: 0
+Jun  2 18:49:31 ts-imx6ul timeLapse[357]: carry on
