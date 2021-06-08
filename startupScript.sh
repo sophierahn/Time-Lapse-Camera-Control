@@ -50,8 +50,9 @@ else
 			sleep 3
 			gphoto2 --capture-image-and-download --keep
 			JPG=(*.JPG)
+			JPGsize=$(du *.JPG)
 			date >> ~/Time-Lapse-Camera-Control/timestamps.txt
-			echo "$JPG" >> ~/Time-Lapse-Camera-Control/timestamps.txt
+			echo "$JPGsize" >> ~/Time-Lapse-Camera-Control/timestamps.txt
 			rm $JPG
 			#only delete the top entry once we've followed it
 			#if we're planning to follow it, we'll need it again
@@ -80,8 +81,9 @@ else
 				sleep 5
 				gphoto2 --capture-image-and-download --keep
 				JPG=(*.JPG)
+				JPGsize=$(du *.JPG)
 				date >> ~/Time-Lapse-Camera-Control/timestamps.txt
-				echo "$JPG" >> ~/Time-Lapse-Camera-Control/timestamps.txt
+				echo "$JPGsize" >> ~/Time-Lapse-Camera-Control/timestamps.txt
 				#Get rid of the JPG so that it doesn't clog up the machine
 				rm $JPG
 				sed -i 1d ~/Time-Lapse-Camera-Control/schedule.txt

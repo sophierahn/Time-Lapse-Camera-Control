@@ -32,3 +32,134 @@ Jun  2 18:49:26 ts-imx6ul timeLapse[357]: Hold down the left pointing arrow key\
 Jun  2 18:49:26 ts-imx6ul timeLapse[357]: Until the device shuts off\n
 Jun  2 18:49:31 ts-imx6ul timeLapse[357]: Button press value is: 0
 Jun  2 18:49:31 ts-imx6ul timeLapse[357]: carry on
+Jun  2 19:09:25 ts-imx6ul timeLapse[355]: Current date is: Wed Jun  2 19:09:25 UTC 2021
+Jun  2 19:09:25 ts-imx6ul timeLapse[355]: Next up on the schedule is: 06/02/2021#01118:55:00
+Jun  2 19:09:25 ts-imx6ul timeLapse[355]: Time difference is: 865
+Jun  2 19:09:25 ts-imx6ul timeLapse[355]: Late wake up time, adjusting schedule
+Jun  2 19:09:25 ts-imx6ul timeLapse[355]: Schedule caught up, current time is scheduled period
+Jun  2 19:09:25 ts-imx6ul timeLapse[355]: Taking photo
+Jun  2 19:09:31 ts-imx6ul timeLapse[355]: *** Error: No camera found. ***
+Jun  2 19:09:31 ts-imx6ul timeLapse[355]: For debugging messages, please use the --debug option.
+Jun  2 19:09:31 ts-imx6ul timeLapse[355]: Debugging messages may help finding a solution to your problem.
+Jun  2 19:09:31 ts-imx6ul timeLapse[355]: If you intend to send any error or debug messages to the gphoto
+Jun  2 19:09:31 ts-imx6ul timeLapse[355]: developer mailing list <gphoto-devel@lists.sourceforge.net>, please run
+Jun  2 19:09:31 ts-imx6ul timeLapse[355]: gphoto2 as follows:
+Jun  2 19:09:31 ts-imx6ul timeLapse[355]: env LANG=C gphoto2 --debug --debug-logfile=my-logfile.txt --capture-image-and-download --keep
+Jun  2 19:09:31 ts-imx6ul timeLapse[355]: Please make sure there is sufficient quoting around the arguments.
+Jun  2 19:09:31 ts-imx6ul timeLapse[355]: rm: cannot remove '*.JPG': No such file or directory
+Jun  2 19:09:31 ts-imx6ul timeLapse[355]: Calculating time to sleep
+Jun  2 19:09:31 ts-imx6ul timeLapse[355]: Time to sleep: 329
+Jun  2 19:09:36 ts-imx6ul timeLapse[355]: Loop exit entered, closing program and remaining ON
+Jun  2 19:48:49 ts-imx6ul timeLapse[357]: Current date is: Wed Jun  2 19:48:49 UTC 2021
+Jun  2 19:48:49 ts-imx6ul timeLapse[357]: Next up on the schedule is: 06/02/2021#01119:15:00
+Jun  2 19:48:49 ts-imx6ul timeLapse[357]: Time difference is: 2029
+Jun  2 19:48:49 ts-imx6ul timeLapse[357]: Late wake up time, adjusting schedule
+Jun  2 19:48:50 ts-imx6ul timeLapse[357]: Schedule caught up, current time is scheduled period
+Jun  2 19:48:50 ts-imx6ul timeLapse[357]: Taking photo
+Jun  2 19:48:57 ts-imx6ul timeLapse[357]: *** Error ***
+Jun  2 19:48:57 ts-imx6ul timeLapse[357]: Out of Focus
+Jun  2 19:48:57 ts-imx6ul timeLapse[357]: ERROR: Could not capture image.
+Jun  2 19:48:57 ts-imx6ul timeLapse[357]: ERROR: Could not capture.
+Jun  2 19:48:57 ts-imx6ul timeLapse[357]: rm: cannot remove '*.JPG': No such file or directory
+Jun  2 19:48:57 ts-imx6ul timeLapse[357]: Calculating time to sleep
+Jun  2 19:48:57 ts-imx6ul timeLapse[357]: Time to sleep: 363
+Jun  2 19:49:02 ts-imx6ul timeLapse[357]: Loop exit entered, closing program and remaining ON
+Jun  2 19:50:55 ts-imx6ul timeLapse[357]: Current date is: Wed Jun  2 19:50:55 UTC 2021
+Jun  2 19:50:55 ts-imx6ul timeLapse[357]: Next up on the schedule is: 06/02/2021#01119:55:00
+Jun  2 19:50:55 ts-imx6ul timeLapse[357]: Time difference is: -245
+Jun  2 19:50:55 ts-imx6ul timeLapse[357]: Early wakeup
+Jun  2 19:50:55 ts-imx6ul timeLapse[357]: Calculating time to sleep
+Jun  2 19:50:55 ts-imx6ul timeLapse[357]: Time to sleep: 245
+Jun  2 19:55:21 ts-imx6ul timeLapse[359]: Current date is: Wed Jun  2 19:55:21 UTC 2021
+Jun  2 19:55:21 ts-imx6ul timeLapse[359]: Next up on the schedule is: 06/02/2021#01119:55:00
+Jun  2 19:55:21 ts-imx6ul timeLapse[359]: Time difference is: 21
+Jun  2 19:55:21 ts-imx6ul timeLapse[359]: On schedule, taking photo
+Jun  2 19:55:27 ts-imx6ul timeLapse[359]: *** Error ***
+Jun  2 19:55:27 ts-imx6ul timeLapse[359]: Out of Focus
+Jun  2 19:55:27 ts-imx6ul timeLapse[359]: ERROR: Could not capture image.
+Jun  2 19:55:27 ts-imx6ul timeLapse[359]: ERROR: Could not capture.
+Jun  2 19:55:27 ts-imx6ul timeLapse[359]: rm: cannot remove '*.JPG': No such file or directory
+Jun  2 19:55:27 ts-imx6ul timeLapse[359]: Calculating time to sleep
+Jun  2 19:55:27 ts-imx6ul timeLapse[359]: Time to sleep: 273
+Jun  2 19:55:32 ts-imx6ul timeLapse[359]: Loop exit entered, closing program and remaining ON
+Jun  2 19:57:41 ts-imx6ul timeLapse[357]: Current date is: Wed Jun  2 19:57:41 UTC 2021
+Jun  2 19:57:41 ts-imx6ul timeLapse[357]: Next up on the schedule is: 06/02/2021#01120:00:00
+Jun  2 19:57:41 ts-imx6ul timeLapse[357]: Time difference is: -139
+Jun  2 19:57:41 ts-imx6ul timeLapse[357]: On schedule, taking photo
+Jun  2 19:57:47 ts-imx6ul timeLapse[357]: *** Error ***
+Jun  2 19:57:47 ts-imx6ul timeLapse[357]: Out of Focus
+Jun  2 19:57:47 ts-imx6ul timeLapse[357]: ERROR: Could not capture image.
+Jun  2 19:57:47 ts-imx6ul timeLapse[357]: ERROR: Could not capture.
+Jun  2 19:57:47 ts-imx6ul timeLapse[357]: rm: cannot remove '*.JPG': No such file or directory
+Jun  2 19:57:47 ts-imx6ul timeLapse[357]: Calculating time to sleep
+Jun  2 19:57:47 ts-imx6ul timeLapse[357]: Time to sleep: 433
+Jun  2 19:57:52 ts-imx6ul timeLapse[357]: Loop exit entered, closing program and remaining ON
+Jun  3 13:01:43 ts-imx6ul timeLapse[355]: Current date is: Thu Jun  3 13:01:43 UTC 2021
+Jun  3 13:01:44 ts-imx6ul timeLapse[355]: Next up on the schedule is: 06/02/2021#01120:05:00
+Jun  3 13:01:44 ts-imx6ul timeLapse[355]: Time difference is: 61003
+Jun  3 13:01:44 ts-imx6ul timeLapse[355]: Late wake up time, adjusting schedule
+Jun  8 16:14:50 ts-imx6ul timeLapse[356]: Current date is: Tue Jun  8 16:14:50 UTC 2021
+Jun  8 16:14:50 ts-imx6ul timeLapse[356]: End of Schedule, shutting down
+Jun  8 16:24:37 ts-imx6ul timeLapse[356]: Current date is: Tue Jun  8 16:24:37 UTC 2021
+Jun  8 16:24:37 ts-imx6ul timeLapse[356]: End of Schedule, shutting down
+Jun  8 16:33:06 ts-imx6ul timeLapse[358]: Current date is: Tue Jun  8 16:33:06 UTC 2021
+Jun  8 16:33:06 ts-imx6ul timeLapse[358]: End of Schedule, shutting down
+Jun  8 18:44:19 ts-imx6ul timeLapse[357]: Current date is: Tue Jun  8 18:44:19 UTC 2021
+Jun  8 18:44:19 ts-imx6ul timeLapse[357]: End of Schedule, shutting down
+Jun  8 18:49:34 ts-imx6ul timeLapse[357]: Current date is: Tue Jun  8 18:49:34 UTC 2021
+Jun  8 18:49:34 ts-imx6ul timeLapse[357]: Next up on the schedule is: 06/08/2021#01115:00:00
+Jun  8 18:49:34 ts-imx6ul timeLapse[357]: Time difference is: 13774
+Jun  8 18:49:34 ts-imx6ul timeLapse[357]: Late wake up time, adjusting schedule
+Jun  8 18:49:36 ts-imx6ul timeLapse[357]: Schedule caught up, current time is scheduled period
+Jun  8 18:49:36 ts-imx6ul timeLapse[357]: Taking photo
+Jun  8 18:49:53 ts-imx6ul timeLapse[357]: New file is in location /store_00010001/DCIM/100D5600/INT_0052.JPG on the camera
+Jun  8 18:49:53 ts-imx6ul timeLapse[357]: Saving file as INT_0052.JPG
+Jun  8 18:49:56 ts-imx6ul timeLapse[357]: Keeping file /store_00010001/DCIM/100D5600/INT_0052.JPG on the camera
+Jun  8 18:49:59 ts-imx6ul timeLapse[357]: Calculating time to sleep
+Jun  8 18:49:59 ts-imx6ul timeLapse[357]: Time to sleep: 301
+Jun  8 18:55:21 ts-imx6ul timeLapse[357]: Current date is: Tue Jun  8 18:55:21 UTC 2021
+Jun  8 18:55:21 ts-imx6ul timeLapse[357]: Next up on the schedule is: 06/08/2021#01118:55:00
+Jun  8 18:55:21 ts-imx6ul timeLapse[357]: Time difference is: 21
+Jun  8 18:55:21 ts-imx6ul timeLapse[357]: On schedule, taking photo
+Jun  8 18:55:36 ts-imx6ul timeLapse[357]: New file is in location /store_00010001/DCIM/100D5600/INT_0053.JPG on the camera
+Jun  8 18:55:36 ts-imx6ul timeLapse[357]: Saving file as INT_0053.JPG
+Jun  8 18:55:39 ts-imx6ul timeLapse[357]: Keeping file /store_00010001/DCIM/100D5600/INT_0053.JPG on the camera
+Jun  8 18:55:41 ts-imx6ul timeLapse[357]: Calculating time to sleep
+Jun  8 18:55:41 ts-imx6ul timeLapse[357]: Time to sleep: 259
+Jun  8 19:00:20 ts-imx6ul timeLapse[355]: Current date is: Tue Jun  8 19:00:20 UTC 2021
+Jun  8 19:00:20 ts-imx6ul timeLapse[355]: Next up on the schedule is: 06/08/2021#01119:00:00
+Jun  8 19:00:20 ts-imx6ul timeLapse[355]: Time difference is: 20
+Jun  8 19:00:20 ts-imx6ul timeLapse[355]: On schedule, taking photo
+Jun  8 19:00:36 ts-imx6ul timeLapse[355]: New file is in location /store_00010001/DCIM/100D5600/INT_0054.JPG on the camera
+Jun  8 19:00:36 ts-imx6ul timeLapse[355]: Saving file as INT_0054.JPG
+Jun  8 19:00:39 ts-imx6ul timeLapse[355]: Keeping file /store_00010001/DCIM/100D5600/INT_0054.JPG on the camera
+Jun  8 19:00:41 ts-imx6ul timeLapse[355]: Calculating time to sleep
+Jun  8 19:00:41 ts-imx6ul timeLapse[355]: Time to sleep: 259
+Jun  8 19:05:21 ts-imx6ul timeLapse[355]: Current date is: Tue Jun  8 19:05:21 UTC 2021
+Jun  8 19:05:21 ts-imx6ul timeLapse[355]: Next up on the schedule is: 06/08/2021#01119:05:00
+Jun  8 19:05:21 ts-imx6ul timeLapse[355]: Time difference is: 21
+Jun  8 19:05:21 ts-imx6ul timeLapse[355]: On schedule, taking photo
+Jun  8 19:05:36 ts-imx6ul timeLapse[355]: New file is in location /store_00010001/DCIM/100D5600/INT_0055.JPG on the camera
+Jun  8 19:05:36 ts-imx6ul timeLapse[355]: Saving file as INT_0055.JPG
+Jun  8 19:05:39 ts-imx6ul timeLapse[355]: Keeping file /store_00010001/DCIM/100D5600/INT_0055.JPG on the camera
+Jun  8 19:05:41 ts-imx6ul timeLapse[355]: Calculating time to sleep
+Jun  8 19:05:41 ts-imx6ul timeLapse[355]: Time to sleep: 259
+Jun  8 19:10:20 ts-imx6ul timeLapse[357]: Current date is: Tue Jun  8 19:10:20 UTC 2021
+Jun  8 19:10:20 ts-imx6ul timeLapse[357]: Next up on the schedule is: 06/08/2021#01119:10:00
+Jun  8 19:10:20 ts-imx6ul timeLapse[357]: Time difference is: 20
+Jun  8 19:10:20 ts-imx6ul timeLapse[357]: On schedule, taking photo
+Jun  8 19:10:36 ts-imx6ul timeLapse[357]: New file is in location /store_00010001/DCIM/100D5600/INT_0056.JPG on the camera
+Jun  8 19:10:36 ts-imx6ul timeLapse[357]: Saving file as INT_0056.JPG
+Jun  8 19:10:39 ts-imx6ul timeLapse[357]: Keeping file /store_00010001/DCIM/100D5600/INT_0056.JPG on the camera
+Jun  8 19:10:41 ts-imx6ul timeLapse[357]: Calculating time to sleep
+Jun  8 19:10:41 ts-imx6ul timeLapse[357]: Time to sleep: 259
+Jun  8 19:16:22 ts-imx6ul timeLapse[356]: Current date is: Tue Jun  8 19:16:22 UTC 2021
+Jun  8 19:16:22 ts-imx6ul timeLapse[356]: Next up on the schedule is: 06/08/2021#01119:15:00
+Jun  8 19:16:22 ts-imx6ul timeLapse[356]: Time difference is: 82
+Jun  8 19:16:22 ts-imx6ul timeLapse[356]: On schedule, taking photo
+Jun  8 19:16:37 ts-imx6ul timeLapse[356]: New file is in location /store_00010001/DCIM/100D5600/INT_0057.JPG on the camera
+Jun  8 19:16:37 ts-imx6ul timeLapse[356]: Saving file as INT_0057.JPG
+Jun  8 19:16:40 ts-imx6ul timeLapse[356]: Keeping file /store_00010001/DCIM/100D5600/INT_0057.JPG on the camera
+Jun  8 19:16:42 ts-imx6ul timeLapse[356]: Calculating time to sleep
+Jun  8 19:16:43 ts-imx6ul timeLapse[356]: Time to sleep: 198
+Jun  8 19:16:48 ts-imx6ul timeLapse[356]: Loop exit entered, closing program and remaining ON
