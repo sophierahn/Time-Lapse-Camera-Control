@@ -67,12 +67,21 @@ else
 			do
 				sed -i 1d ~/Time-Lapse-Camera-Control/schedule.txt
 				#now we fight back to our schedule
+				now=$(date)
+				now_s=$(date -d "$now" '+%s')
 				schedule=$(head -n 1 ~/Time-Lapse-Camera-Control/schedule.txt)
 				schedule_s=$(date -d "$schedule" '+%s')
 				diff=$(($now_s - $schedule_s))
+
+				if test -z "$schedule";
+				then 
+					#if after editing, the schedule is empty
+					diff=-181
+				fi
+				
 				
 			done
-	
+			echo "Done editing the schedule"
 			if test $diff -ge -180;
 			then
 				echo "Schedule caught up, current time is scheduled period"
@@ -104,41 +113,51 @@ else
 	#depending on the scenario
 	#Now the new sleep time can be found
 
-	schedule=$(head -n 1 ~/Time-Lapse-Camera-Control/schedule.txt)
-	now=$(date)
-	
-	now_s=$(date -d "$now" '+%s')
-	schedule_s=$(date -d "$schedule" '+%s')
-	#add a negative bc if the time is in the future (as it should be) itll be a negative sleep time
-	neg=-1
-	diff=$(($now_s - $schedule_s))
-	
-	echo "Calculating time to sleep"	
-	((time_sleep=neg*diff))
-	echo "Time to sleep: $time_sleep"
-	
-	sleep 5
-	
-	#Check for button press
-	
-	button_press=$(cat /sys/class/gpio/gpio117/value)
-		
-	
-	
-	
-	#Put Jessie to sleep
-	if test $button_press == 0;
+	if test $diff == -181;
 	then 
-		echo "Going to sleep"
-		echo "0" > /sys/class/gpio/gpio136/value
-		sleep 2
-		tsmicroctl --sleep $time_sleep
+		#indicator has been given, remain on
+		echo "Schedule is empty, action is needed"
 	else
-		echo "Loop exit entered, closing program and remaining ON"
-		echo "0" > /sys/class/gpio/gpio136/value
+
+		schedule=$(head -n 1 ~/Time-Lapse-Camera-Control/schedule.txt)
+		now=$(date)
+	
+		now_s=$(date -d "$now" '+%s')
+		schedule_s=$(date -d "$schedule" '+%s')
+		#add a negative bc if the time is in the future (as it should be) itll be a negative sleep time
+		neg=-1
+		diff=$(($now_s - $schedule_s))
+	
+		echo "Calculating time to sleep"	
+		((time_sleep=neg*diff))
+		echo "Time to sleep: $time_sleep"
+		
+		sleep 5
+		
+		#Check for button press
+		
+		button_press=$(cat /sys/class/gpio/gpio117/value)
+			
+		
+		
+		
+		#Put Jessie to sleep
+		if test $button_press == 0;
+		then 
+			echo "Going to sleep"
+			echo "0" > /sys/class/gpio/gpio136/value
+			sleep 2
+			if test $diff -gt 0;
+				#tsmicroctl --sleep $time_sleep
+			else
+				echo "Input is unacceptable, closing program"
+			fi
+		else
+			echo "Loop exit entered, closing program and remaining ON"
+			echo "0" > /sys/class/gpio/gpio136/value
+		fi
+		
 	fi
 	
 fi
-
-
 	
