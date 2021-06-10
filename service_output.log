@@ -783,3 +783,6 @@ Jun 10 14:12:38 ts-imx6ul timeLapse[356]: Current date is: Thu Jun 10 14:12:38 U
 Jun 10 14:12:38 ts-imx6ul timeLapse[356]: Next up on the schedule is: 06/09/2021#01113:20:00
 Jun 10 14:12:38 ts-imx6ul timeLapse[356]: Time difference is: 89558
 Jun 10 14:12:38 ts-imx6ul timeLapse[356]: Late wake up time, adjusting schedule
+Jun 10 15:57:47 ts-imx6ul timeLapse[357]: Current date is: Thu Jun 10 15:57:47 UTC 2021
+Jun 10 15:57:47 ts-imx6ul timeLapse[357]: /root/Time-Lapse-Camera-Control/startupScript.sh: line 152: syntax error near unexpected token `else'
+Jun 10 15:57:47 ts-imx6ul timeLapse[357]: /root/Time-Lapse-Camera-Control/startupScript.sh: line 152: `#011#011#011else'

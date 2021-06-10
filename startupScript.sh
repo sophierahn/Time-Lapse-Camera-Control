@@ -3,14 +3,14 @@
 #Set all the various GPIO pins
 
 #Setting up the Relay
-echo "136" > /sys/class/gpio/export
-echo "out" > /sys/class/gpio/gpio136/direction
+#echo "136" > /sys/class/gpio/export
+#echo "out" > /sys/class/gpio/gpio136/direction
 
 sleep 1
 
 #Setting up the keypad
-echo "117" > /sys/class/gpio/export
-echo "in" > /sys/class/gpio/gpio117/direction
+#echo "117" > /sys/class/gpio/export
+#echo "in" > /sys/class/gpio/gpio117/direction
 
 #check the current date and time
 now=$(date)
@@ -148,16 +148,17 @@ else
 			echo "0" > /sys/class/gpio/gpio136/value
 			sleep 2
 			if test $diff -gt 0;
+			then
 				#tsmicroctl --sleep $time_sleep
+				echo "Would be sleeping"
 			else
 				echo "Input is unacceptable, closing program"
 			fi
+
 		else
 			echo "Loop exit entered, closing program and remaining ON"
 			echo "0" > /sys/class/gpio/gpio136/value
-		fi
-		
+		fi	
 	fi
-	
 fi
 	
