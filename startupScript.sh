@@ -51,8 +51,9 @@ else
 			gphoto2 --capture-image-and-download --keep
 			JPG=(*.JPG)
 			JPGsize=$(du *.JPG)
-			date >> ~/Time-Lapse-Camera-Control/timestamps.txt
-			echo "$JPGsize" >> ~/Time-Lapse-Camera-Control/timestamps.txt
+			now=$(date)
+			#date >> ~/Time-Lapse-Camera-Control/timestamps.txt
+			echo "$now $JPGsize" >> ~/Time-Lapse-Camera-Control/timestamps.txt
 			rm $JPG
 			#only delete the top entry once we've followed it
 			#if we're planning to follow it, we'll need it again
@@ -82,8 +83,9 @@ else
 				gphoto2 --capture-image-and-download --keep
 				JPG=(*.JPG)
 				JPGsize=$(du *.JPG)
-				date >> ~/Time-Lapse-Camera-Control/timestamps.txt
-				echo "$JPGsize" >> ~/Time-Lapse-Camera-Control/timestamps.txt
+				now=$(date)
+				#date >> ~/Time-Lapse-Camera-Control/timestamps.txt
+				echo "$now $JPGsize" >> ~/Time-Lapse-Camera-Control/timestamps.txt
 				#Get rid of the JPG so that it doesn't clog up the machine
 				rm $JPG
 				sed -i 1d ~/Time-Lapse-Camera-Control/schedule.txt
@@ -125,7 +127,7 @@ else
 	
 	
 	#Put Jessie to sleep
-	if test $button_press == 1;
+	if test $button_press == 0;
 	then 
 		echo "Going to sleep"
 		echo "0" > /sys/class/gpio/gpio136/value

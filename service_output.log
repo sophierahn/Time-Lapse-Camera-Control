@@ -163,3 +163,623 @@ Jun  8 19:16:40 ts-imx6ul timeLapse[356]: Keeping file /store_00010001/DCIM/100D
 Jun  8 19:16:42 ts-imx6ul timeLapse[356]: Calculating time to sleep
 Jun  8 19:16:43 ts-imx6ul timeLapse[356]: Time to sleep: 198
 Jun  8 19:16:48 ts-imx6ul timeLapse[356]: Loop exit entered, closing program and remaining ON
+Jun  8 20:18:26 ts-imx6ul timeLapse[355]: Current date is: Tue Jun  8 20:18:26 UTC 2021
+Jun  8 20:18:26 ts-imx6ul timeLapse[355]: Next up on the schedule is: 06/08/2021#01119:50:00
+Jun  8 20:18:26 ts-imx6ul timeLapse[355]: Time difference is: 1706
+Jun  8 20:18:26 ts-imx6ul timeLapse[355]: Late wake up time, adjusting schedule
+Jun  8 20:18:27 ts-imx6ul timeLapse[355]: Schedule caught up, current time is scheduled period
+Jun  8 20:18:27 ts-imx6ul timeLapse[355]: Taking photo
+Jun  8 20:18:43 ts-imx6ul timeLapse[355]: New file is in location /store_00010001/DCIM/100D5600/INT_0062.JPG on the camera
+Jun  8 20:18:43 ts-imx6ul timeLapse[355]: Saving file as INT_0062.JPG
+Jun  8 20:18:46 ts-imx6ul timeLapse[355]: Keeping file /store_00010001/DCIM/100D5600/INT_0062.JPG on the camera
+Jun  8 20:18:48 ts-imx6ul timeLapse[355]: Calculating time to sleep
+Jun  8 20:18:48 ts-imx6ul timeLapse[355]: Time to sleep: 372
+Jun  8 20:18:53 ts-imx6ul timeLapse[355]: Loop exit entered, closing program and remaining ON
+Jun  9 13:13:17 ts-imx6ul timeLapse[356]: Current date is: Wed Jun  9 13:13:17 UTC 2021
+Jun  9 13:13:17 ts-imx6ul timeLapse[356]: Next up on the schedule is: 06/08/2021#01120:25:00
+Jun  9 13:13:17 ts-imx6ul timeLapse[356]: Time difference is: 60497
+Jun  9 13:13:17 ts-imx6ul timeLapse[356]: Late wake up time, adjusting schedule
+Jun  9 13:24:30 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:30 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:30 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:30 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:30 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:30 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:30 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:30 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:30 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:30 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:30 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:31 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:32 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:33 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:34 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:35 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:35 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:35 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:35 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:35 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:35 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:35 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:35 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:35 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:35 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:35 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:35 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:35 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:35 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:35 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:35 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:35 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:35 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:35 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:35 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:35 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:35 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:35 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:35 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:35 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:35 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:35 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:35 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:35 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:35 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:35 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:35 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:35 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:35 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:35 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:35 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:35 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:35 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:35 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:35 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:35 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:35 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:35 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:35 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:35 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:35 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:35 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:35 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:35 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:35 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:35 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:35 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:35 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:35 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:36 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:37 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:37 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:37 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:37 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:37 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:37 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:37 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:37 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:37 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:37 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:37 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:37 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:37 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:37 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:37 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:37 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:37 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:37 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:37 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:37 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:37 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:37 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:37 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:37 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:37 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:37 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:37 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:37 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:37 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:37 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:38 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:38 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:38 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:38 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:38 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:38 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:38 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:38 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:38 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:38 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:38 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:38 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:38 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:38 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:38 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:38 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:38 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:38 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:38 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:38 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:38 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:38 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:38 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:38 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:38 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:38 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:38 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:38 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:38 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:38 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:38 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:38 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:38 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:38 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:38 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:38 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:38 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:38 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:38 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:38 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:38 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:38 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:38 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:38 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:38 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:38 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:38 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:38 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:38 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:38 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:38 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:38 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:38 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:38 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:38 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:38 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:38 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:38 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:38 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:39 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:40 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:41 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:41 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:41 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:41 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:41 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:41 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:41 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:41 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:41 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:41 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:41 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:41 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:41 ts-imx6ul timeLapse[356]: sed: can't read /root/Time-Lapse-Camera-Control/schedule.txt: No such file or directory
+Jun  9 13:24:41 ts-imx6ul timeLapse[356]: head: cannot open '/root/Time-Lapse-Camera-Control/schedule.txt' for reading: No such file or directory
+Jun  9 13:24:41 ts-imx6ul timeLapse[356]: Schedule caught up, current time is scheduled period
+Jun  9 13:24:41 ts-imx6ul timeLapse[356]: Taking photo
+Jun  9 13:24:56 ts-imx6ul timeLapse[356]: New file is in location /store_00010001/DCIM/100D5600/INT_0063.JPG on the camera
+Jun  9 13:24:56 ts-imx6ul timeLapse[356]: Saving file as INT_0063.JPG
+Jun  9 13:24:59 ts-imx6ul timeLapse[356]: Keeping file /store_00010001/DCIM/100D5600/INT_0063.JPG on the camera
+Jun  9 13:25:01 ts-imx6ul timeLapse[356]: Calculating time to sleep
+Jun  9 13:25:01 ts-imx6ul timeLapse[356]: Time to sleep: -301
+Jun 10 14:12:38 ts-imx6ul timeLapse[356]: Current date is: Thu Jun 10 14:12:38 UTC 2021
+Jun 10 14:12:38 ts-imx6ul timeLapse[356]: Next up on the schedule is: 06/09/2021#01113:20:00
+Jun 10 14:12:38 ts-imx6ul timeLapse[356]: Time difference is: 89558
+Jun 10 14:12:38 ts-imx6ul timeLapse[356]: Late wake up time, adjusting schedule
