@@ -3,14 +3,14 @@
 #Set all the various GPIO pins
 
 #Setting up the Relay
-#echo "136" > /sys/class/gpio/export
-#echo "out" > /sys/class/gpio/gpio136/direction
+echo "136" > /sys/class/gpio/export
+echo "out" > /sys/class/gpio/gpio136/direction
 
 sleep 1
 
 #Setting up the keypad
-#echo "117" > /sys/class/gpio/export
-#echo "in" > /sys/class/gpio/gpio117/direction
+echo "117" > /sys/class/gpio/export
+echo "in" > /sys/class/gpio/gpio117/direction
 
 #check the current date and time
 now=$(date)
@@ -132,7 +132,7 @@ else
 		((time_sleep=neg*diff))
 		echo "Time to sleep: $time_sleep"
 		
-		sleep 5
+		sleep 1
 		
 		#Check for button press
 		
@@ -144,13 +144,12 @@ else
 		#Put Jessie to sleep
 		if test $button_press == 0;
 		then 
-			echo "Going to sleep"
 			echo "0" > /sys/class/gpio/gpio136/value
 			sleep 2
-			if test $diff -gt 0;
+			if test $time_sleep -gt 0;
 			then
-				#tsmicroctl --sleep $time_sleep
-				echo "Would be sleeping"
+				tsmicroctl --sleep $time_sleep
+				echo "Going to sleep"
 			else
 				echo "Input is unacceptable, closing program"
 			fi
