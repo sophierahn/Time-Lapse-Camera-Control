@@ -6,6 +6,8 @@
 echo "136" > /sys/class/gpio/export
 echo "out" > /sys/class/gpio/gpio136/direction
 
+echo "Look! A meaningless change to test something!"
+
 sleep 1
 
 #Setting up the keypad
