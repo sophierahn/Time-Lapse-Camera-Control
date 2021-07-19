@@ -134,8 +134,6 @@ else
 		echo "Time to sleep: $time_sleep"
 
 
-		cp service_output.log /media/usb/SophiesStuffFeelFreetoDelete
-		cp timestamps.txt /media/usb/SophiesStuffFeelFreetoDelete
 
 		
 		sleep 1
