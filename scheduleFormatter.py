@@ -1,20 +1,25 @@
 from tkinter import *
 from tkcalendar import *
 
+#Use this file to open a GUI. It can be used to visually schedule specific appointments and export those to a text file
+
+#Opening the schedule file
 scheduleFile = open(r"schedule.txt", "w")
 
+#GUI formatting
 ws = Tk()
 ws.title("Python Guides")
 ws.geometry("500x400")
 ws.config(bg="#cd950c")
 
+#Setting Variables
 hour_string = StringVar()
 min_string = StringVar()
 last_value_sec = ""
 last_value = ""
 f = ('Times', 20)
 
-
+#Function to display and export chosen dates and times
 def display_msg():
     date = cal.get_date()
     m = min_sb.get() #this is actually the hour
@@ -33,7 +38,7 @@ def display_msg():
     print(str1)
     scheduleFile.write(str1)
 
-
+#Adjustments to GUI output to improve usability
 if last_value == "59" and min_string.get() == "0":
     hour_string.set(int(hour_string.get()) + 1 if hour_string.get() != "23" else 0)
     last_value = min_string.get()
@@ -43,8 +48,12 @@ if last_value_sec == "59" and sec_hour.get() == "0":
 if last_value == "59":
     hour_string.set(int(hour_string.get()) + 1 if hour_string.get() != "23" else 0)
     last_value_sec = sec_hour.get()
+#------------------------------------    
+#Add similar adjustment so date rolls forward when the hour is taken past midnight
+#------------------------------------
 
 
+#Specific formatting instructions
 fone = Frame(ws)
 ftwo = Frame(ws)
 
@@ -123,4 +132,5 @@ msg_display.pack(pady=10)
 
 ws.mainloop()
 
+#Close schedule file
 scheduleFile.close()
